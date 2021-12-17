@@ -1,0 +1,29 @@
+@charset "utf-8";
+@font-face{
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 300;
+  src: local(nanumsquareR);
+  src: url(../css/Noto_Sans_KR/NotoSansKR-Regular-Alphabetic.eot),
+  url(../css/Noto_Sans_KR/NotoSansKR-Regular-Alphabetic.woff2) format('woff2');
+}
+@font-face{
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 800;
+  src: local(nanumsquareB);
+  src: url(../css/Noto_Sans_KR/NotoSansKR-Bold-Alphabetic.eot),
+  url(../css/Noto_Sans_KR/NotoSansKR-Bold-Alphabetic.woff2) format('woff2');
+}
+*{margin: 0; padding: 0;}
+header, nav, section, footer, aside, figure, figcaption{display: block;}
+body{
+  font-family: NotoSansKR, sans-serif;
+  font-size: 16px; line-height: 1.35; color: #333;
+}
+ul, ol{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+a{text-decoration: none; color: #484848;}
+img{vertical-align: top; border: 0;}
+input, select, button{vertical-align: top;}
+.clear::after{content: ''; display: block; clear: both;}
